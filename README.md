@@ -8,3 +8,4 @@
 ### 3rd: Glue Crawler is used for catalog and creating schema
 ### 4rd: Data is storaged in a RDS.
 ### 5rd: Data can be consumed via Athena or Dataviz Tool (such as Power BI)
+![image](https://github.com/Igorps023/Music_Stream/assets/98396618/10b1b421-8a62-40a4-88d3-691f212c7f66)
