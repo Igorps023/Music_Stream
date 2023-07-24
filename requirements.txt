@@ -1,8 +1,6 @@
 #!/bin/bash
-pip3 install --user pandas
 pip3 install --user pytz
 pip3 install --user numpy
 pip3 install --user dateutil
 pip3 install --user kaggle
-pip3 install --user opencv-python
 sudo yum install git -y
