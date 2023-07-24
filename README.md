@@ -6,7 +6,7 @@ O notebook contempla toda a exploração e criação física dos processos neces
 
 Etapas:
 - Análise dos dados
-- Entendimento de "erros" de digitação e/ou linhas/colunas duplicadas
+- Entendimento de "erros" de digitação e/ou linhas/colunas duplicadas (tipagem de dados)
 - Correção e conversão dos arquivos para formato Parquet e envio para outro bucket (Refined Zone)
 - Criação de diagrama com as tabelas e relacionamentos existentes
 - Fluxograma do processo de ingestão de dados até entrega de dashboards para a área de BI e clientes.
@@ -15,16 +15,13 @@ Etapas:
 Itens adicionais:
 - Mapeamento das fontes de dados
 - Criação das camadas para ingestão e tratamento dos dados
-- Exploração e entendimento das fontes de dados (número de linhas, colunas, tipo de arquivo)
-- Tratamento para retirada de linhas com erros de digitação e/ou duplicadas
-- Schema (tipagem das colunas)
 - Criação de Novas Tabelas (Spark SQL)
 
 # Arquitetura Cloud (AWS)
 ![WhatsApp Image 2023-07-18 at 20 45 38](https://github.com/Igorps023/Music_Stream/assets/98396618/09293bd1-b35b-40e4-9857-46176fa57f68)
 
 
-# Diagrama (Fato x Dimensão)
+# Modelagem de Dados (Tabelas Fato x Dimensão)
 Conforme o diagrama proposto, este projeto utilizará 3 tabelas
 *   1 tabela fato - Todos os registros de músicas escutadas por usuário
 *   1 tabela dimensão - Todos os usuários
