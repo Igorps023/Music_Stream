@@ -38,7 +38,7 @@ Diagrama feito no Draw.io
     - Apresentar o comportamento de streamings ao longo do ano de 2020, mapeando o principal gênero dos usuários.
     - Quais artistas, álbuns e data de lançamento de discos e singles apresentaram maiores resultados.
     - Fornecer um dashboard para entendimento macro das informações históricas, e futuramente desenvolver estudos específicos, de acordo com a necessidade da empresa.    
-- O arquivo PBIX para edição do dashboard está diponível no GitHub.
+- O arquivo PBIX para edição do dashboard está diponível no Google Drive (https://drive.google.com/file/d/1jysdK17_FkQNEh5PKehDv8FBuJYMLwRX/view?usp=sharing)
 
 
 ### Principais Pontos do Notebook
