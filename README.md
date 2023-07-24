@@ -20,7 +20,11 @@ Itens adicionais:
 - Schema (tipagem das colunas)
 - Criação de Novas Tabelas (Spark SQL)
 
-# Diagrama 
+# Arquitetura Cloud (AWS)
+![WhatsApp Image 2023-07-18 at 20 45 38](https://github.com/Igorps023/Music_Stream/assets/98396618/09293bd1-b35b-40e4-9857-46176fa57f68)
+
+
+# Diagrama (Fato x Dimensão)
 Conforme o diagrama proposto, este projeto utilizará 3 tabelas
 *   1 tabela fato - Todos os registros de músicas escutadas por usuário
 *   1 tabela dimensão - Todos os usuários
