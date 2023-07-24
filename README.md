@@ -27,17 +27,27 @@ Conforme o diagrama proposto, este projeto utilizará 3 tabelas
 *   1 tabela dimensão - Todas as musicas/artista
 Diagrama feito no Draw.io
 
-![image.png](attachment:image.png)
+![Untitled](https://github.com/Igorps023/Music_Stream/assets/98396618/6d13aed3-918f-430c-9c42-b1500faf1eaf)
 
 # Dashboard desenvolvido para a área de BI
-![image.png](attachment:image.png)
+![Untitled-1](https://github.com/Igorps023/Music_Stream/assets/98396618/b733be8d-237a-4718-ba6e-69e24dcceafe)
+### Principais Pontos do Dashboard:
+- Conexão realizada via Athena
+- Dados históricos de streaming para o ano de 2020
+- Ideia principal:
+    - Apresentar o comportamento de streamings ao longo do ano de 2020, mapeando o principal gênero dos usuários.
+    - Quais artistas, álbuns e data de lançamento de discos e singles apresentaram maiores resultados.
+    - Fornecer um dashboard para entendimento macro das informações históricas, e futuramente desenvolver estudos específicos, de acordo com a necessidade da empresa.    
+- O arquivo PBIX para edição do dashboard está diponível no GitHub.
+
 
 ### Principais Pontos do Notebook
 ### Arquivos criados e salvos em um bucket (S3) no formato Parquet 
-Endereco bkt origem: s3://bkt-musicstream-bi/Files/RawZone/
-Endereco bkt destino: s3://bkt-musicstream-bi/Files/RefinedZone/
+- Endereco bkt origem: s3://bkt-musicstream-bi/Files/RawZone/
+- Endereco bkt destino: s3://bkt-musicstream-bi/Files/RefinedZone/
 
-![image-2.png](attachment:image-2.png)
+![Untitled](https://github.com/Igorps023/Music_Stream/assets/98396618/b4dab70b-f9ae-4a0e-a336-36f49da7db1e)
+
 
 ### Tabelas Criadas
 - music_info_unique (formato parquet)
