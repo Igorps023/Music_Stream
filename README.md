@@ -51,6 +51,6 @@ Diagrama feito no Draw.io
 
 
 ### Tabelas Criadas
-- music_info_unique (formato parquet)
-- user_listening_history_raw (formato parquet)
-- users (formato parquet)
+- music_info_dim (formato parquet)
+- listening_history_fact (formato parquet)
+- user_id_dim (formato parquet)
